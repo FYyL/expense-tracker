@@ -10,9 +10,9 @@ import pt.rawr.expense_tracker.dto.UpdateExpenseRequest;
 import pt.rawr.expense_tracker.dto.UpdateExpenseResponse;
 
 public interface ExpenseTrackerService {
-    public CreateExpenseResponse addExpense(CreateExpenseRequest request);
+    public CreateExpenseResponse createExpense(CreateExpenseRequest request);
     public UpdateExpenseResponse updateExpense(long expenseId, UpdateExpenseRequest request);
-    public void deleteExpense(long id);
+    public void deleteExpense(long expenseId);
     public List<ExpenseDto> findExpenses(ExpenseSearchCriteria criteria);
     public ExpenseDto getExpenseById(long id);
 }

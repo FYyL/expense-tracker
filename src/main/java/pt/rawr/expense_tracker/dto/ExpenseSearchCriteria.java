@@ -6,7 +6,6 @@ import lombok.Data;
 
 @Data
 public class ExpenseSearchCriteria {
-    private Long userId;
     private ExpenseCategory category;
     private LocalDate startDate; 
     private LocalDate endDate;

@@ -1,4 +1,4 @@
-package pt.rawr.expense_tracker.controller.bean;
+package pt.rawr.expense_tracker.dto;
 
 import java.time.LocalDate;
 

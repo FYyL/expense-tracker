@@ -10,4 +10,5 @@ public class ExpenseDto {
     private double amount;
     private String description;
     private LocalDate date;
+    private ExpenseStatus status;
 }
